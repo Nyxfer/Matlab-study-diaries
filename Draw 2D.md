@@ -9,7 +9,7 @@
 |                 plot( )                  |                             |        |
 |             subplot(r, c, n)             |    $r \times c$ 中的第n个位置     |        |
 |          xlabel(' ', 'rot', n)           |        rot n degree         |        |
-|                title(' ')                |                             |        |
+|    title(' ', 'fontweight', 'normal')    |           标题大小正常            |        |
 | legend(' ', ' ',..., 'location', 'southeast') |                             |        |
 |        set(gca,'xtick',(a: k: b))        |    from a to b, each a+k    |        |
 | set(gca,'xticklabel',sprintf('%03.4f\|',get(gca,'xtick'))) |            有效位数             |        |
